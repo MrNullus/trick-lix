@@ -59,6 +59,7 @@ ul {
     max-height: 30vh;
     padding: 1.2rem;
     padding-bottom: .3rem;
+    margin-bottom: 1.9rem;
 
     text-align: center;
 }
@@ -155,6 +156,15 @@ ul {
     display: block;
 }
 
+.page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+
+    padding: 1.2rem;
+    margin-top: 2.5rem;
+}
+
 
 .footer-page {
     width: 100%;
@@ -164,4 +174,33 @@ ul {
 .footer-page h5 {
     text-align: center;
     font-size: 1.2rem;
+}
+
+.sidebar-container {
+    display: flex;
+    flex: 1;
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-left: 2px solid black;
+    padding-left: 1.5rem;
+    
+}
+
+.column-sidebar h3 {
+    padding-bottom: 12px;
+
+    color: #f37229;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.sidebar-list .sidebar-link a {
+    padding: .9rem;
+    
+    color: #262626;
+    font-weight: 500;
+
+    line-height: 27px;
 }

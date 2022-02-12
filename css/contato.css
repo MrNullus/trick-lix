@@ -1,0 +1,46 @@
+.blogentry h2.heading,
+.blogentry h4 {
+    text-align: center;
+}
+
+.blogentry h2.heading {
+    margin-bottom: 1rem;
+}
+
+.blogentry h4 {
+    padding-bottom: 1.3rem;
+}
+
+.social-media {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media .social-link {
+    background: black;
+
+    padding: .5rem 1.2rem;
+    border-radius: 3px;
+
+    transition: background .08s linear;
+}
+
+.social-link a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.social-link a:hover {
+    background: none;
+    border: 2px solid black;
+
+    color: #F7630C;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+

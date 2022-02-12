@@ -1,0 +1,17 @@
+.page.sobre {
+    grid-template-columns: minmax(90%, 95%);
+    gap: 0;
+    place-items: center;
+
+    padding: 2rem;
+    padding-left: 57px;
+}
+
+.sobre .blogentry p {
+    letter-spacing: .9pt;
+    line-height: 2rem;
+}
+
+.sobre .blogentry p:not(:last-child) {
+    margin-bottom: 1rem;
+}
