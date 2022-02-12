@@ -159,9 +159,10 @@ ul {
 .page {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 2rem;
+    gap: 1.4rem;
 
     padding: 1.2rem;
+    padding-left: 1.6rem;
     margin-top: 2.5rem;
 }
 
@@ -177,16 +178,21 @@ ul {
 }
 
 .sidebar-container {
+    max-width: 500px;
+
     display: flex;
     flex: 1;
     gap: 1.2rem;
     flex-direction: column;
-    justify-content: space-between;
-
-    border-left: 2px solid black;
-    padding-left: 1.5rem;
-    
 }
+
+.column-sidebar:not(-last-child) {
+    margin-bottom: 2rem;
+    
+    border-left: 2px solid black;
+    padding-left: 1.5rem
+}
+
 
 .column-sidebar h3 {
     padding-bottom: 12px;
@@ -203,4 +209,14 @@ ul {
     font-weight: 500;
 
     line-height: 27px;
+}
+
+.page .blogentry p {
+    letter-spacing: .9pt;
+    line-height: 2rem;
+    text-indent: 45pt;
+}
+
+.page .blogentry p:not(:last-child) {
+    margin-bottom: 1rem;
 }

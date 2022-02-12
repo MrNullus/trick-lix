@@ -6,12 +6,3 @@
     padding: 2rem;
     padding-left: 57px;
 }
-
-.sobre .blogentry p {
-    letter-spacing: .9pt;
-    line-height: 2rem;
-}
-
-.sobre .blogentry p:not(:last-child) {
-    margin-bottom: 1rem;
-}
