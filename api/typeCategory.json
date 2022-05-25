@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "category": "all"
+    },
+    {
+        "id": "1",
+        "category": "fantasia"
+    },
+    {
+        "id": "2",
+        "category": "terror"
+    },
+    {
+        "id": "3",
+        "category": "aventura"
+    },
+    {
+        "id": "4",
+        "category": "suspense"
+    },
+    {
+        "id": "5",
+        "category": "infantil"
+    }   
+]

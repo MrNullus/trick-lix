@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trick Lix || ALL</title>
+
+        <!-- link file css styles -->
+        <link rel="stylesheet" href="assets/css/globals.css" />
+        <link rel="stylesheet" href="assets/css/category.css" />
+    </head>
+
+    <body>
+        <!-- container -->
+        <div class="container">
+            <!-- header -->
+            <header class="header-page">
+                <!-- menu center -->
+                <div class="menu-center">
+                    <h1 class="logo skipmenu">
+                        <a href="index.html">Trick Lix</a>
+                    </h1>
+                    <h2>Doando Histórias 📙</h2>
+                </div>
+
+                <!-- nav main -->
+                <nav class="nav-main">
+                    <!-- nav list -->
+                    <ul class="nav-list">
+                        <!-- nav item -->
+                        <li class="nav-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <!-- nav item -->
+                        <li class="nav-item">
+                            <a href="contato.html">Contato</a>
+                        </li>
+                        <!-- nav item -->
+                        <li class="nav-item">
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <!-- nav item -->
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    Categoria
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a 
+                                        data-category="all" 
+                                        class="dropdown-item" 
+                                        href="#"
+                                    >
+                                        All
+                                    </a>
+                                    <a 
+                                        data-category="fantasia" 
+                                        class="dropdown-item" 
+                                        href="#"
+                                    >
+                                        Fantasia
+                                    </a>
+                                    <a  
+                                        data-category="infantil" 
+                                        class="dropdown-item"
+                                        href="#"
+                                    >
+                                        Infantil
+                                    </a>
+                                    <a 
+                                        data-category="poesia" 
+                                        class="dropdown-item" 
+                                        href="#"
+                                    >
+                                        Poesia
+                                    </a>
+                                    <a 
+                                        data-category="suspense" 
+                                        class="dropdown-item" 
+                                        href="#"
+                                    >
+                                        Suspense
+                                    </a>
+                                    <a 
+                                        data-category="terror" 
+                                        class="dropdown-item" 
+                                        href="#"
+                                    >
+                                        Terror
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- end of header -->
+
+            <!-- page -->
+            <main class="page category" id="container">
+                <section class="blogentry">
+                    <h2 class="heading category-title">All</h2>
+
+                    <div class="content books-container">
+                        
+                    </div>
+                </section>
+
+                <!-- sidebar container -->
+                <aside class="sidebar-container">
+                    <!-- single column sidebar -->
+                    <div class="column-sidebar">
+                        <h3>Recomendados</h3>
+
+                        <nav class="sidebar">
+                            <ul class="sidebar-list">
+                                <li class="sidebar-link">
+                                    <a href="#">Dom Quixote, de Miguel de Cervantes (500 milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">Um Conto de Duas Cidades, de Charles Dickens (200
+                                        milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">O Senhor dos Anéis, de J.R.R Tolkien (150 milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">O Pequeno Príncipe, de Antoine de Saint-Exupéry (140
+                                        milhões)</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="column-sidebar">
+                        <h3>Tops da Categoria</h3>
+
+                        <nav class="sidebar">
+                            <ul class="sidebar-list">
+                                <li class="sidebar-link">
+                                    <a href="#">Dom Quixote, de Miguel de Cervantes (500 milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">Um Conto de Duas Cidades, de Charles Dickens (200
+                                        milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">O Senhor dos Anéis, de J.R.R Tolkien (150 milhões)</a>
+                                </li>
+                                <li class="sidebar-link">
+                                    <a href="#">O Pequeno Príncipe, de Antoine de Saint-Exupéry (140
+                                        milhões)</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+                <!-- /end of sidebar container -->
+            </main>
+            <!-- /end of page -->
+
+            <!-- footer -->
+            <footer class="footer-page">
+                <h5>Copyright © <em>LickTrix</em> 💜</h5>
+            </footer>
+            <!-- /end of footer -->
+        </div>
+        <!-- /end of container -->
+
+        <!-- script app.js -->
+        <script type="module" src="./src/catalog.js" async defer></script>
+        <!-- /script app.js -->
+    </body>
+
+</html>
